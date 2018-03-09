@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ <div id="subpage_bg">
+  <div id="menubar">
+   <div class="inner-bar">
+    <pageset style="Telerik" class="telerik_main_menu" type="text" maxDepth="3" checkpermission="true" hideHome="true" highlightSelectedItem="true" mMenu="true" mMenuID="mMenuCMS" />
+   </div>
+  </div>
+ <div id="subpage_theme">
+  <div id="subpage">
+
+       <div id="subpage_content" class="homepage" role="main">
+    <h1 class="sr-only"><pageTitle/></h1>
+
+    <div class="col-md-8">
+         <page/>
+    </div>
+    <div class="col-md-4">
+        <div style="display: none;"><pageset style="custom" controls="true"/></div>
+        <pageset style="custom" controls="true"/>
+      </div>
+
+    </div>
+
+  </div>
+        <div class="clear"></div>
+ </div>
+</div>

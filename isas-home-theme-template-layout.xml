@@ -1,0 +1,132 @@
+<template>
+<HTMLHead>
+<link rel="stylesheet" href="https://use.typekit.net/qdf6wea.css" type='text/css'/>
+
+<script>
+var headID = document.getElementsByTagName("head")[0];
+var ShortcutIcon = document.createElement('link');
+ShortcutIcon.type = 'image/vnd.microsoft.icon';
+ShortcutIcon.rel = 'shortcut icon';
+ShortcutIcon.href = '/UserFiles/Servers/Server_260627/Image/Theme/favicon.ico';
+headID.appendChild(ShortcutIcon);
+
+var Icon = document.createElement('link');
+Icon.type = 'image/vnd.microsoft.icon';
+Icon.rel = 'shortcut icon';
+Icon.href = '/UserFiles/Servers/Server_260627/Image/Theme/favicon.ico';
+headID.appendChild(Icon);
+</script>
+
+<meta id="viewport" name="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<!--[if lte IE 8]>
+<link href='/UserFiles/Servers/Server_260627/File/styles/iev5.css' rel='stylesheet' type='text/css'/>
+<![endif]-->
+</HTMLHead>
+
+<div id="wrap">
+
+<div class="wrapper">
+
+<a href="#mMenuCMS" id="mobile-bar"><div class="reso-m-btn">MENU</div></a>
+
+ <div id="header">
+
+    	<div class="sitename"><a href="http://www.illinois.edu/" title="Home"><img src="/UserFiles/Servers/Server_260627/Image/Theme/Illinois-block-I-header.gif" alt="University of Illinois" title="University of Illinois" style="height: 30px;"/></a></div>
+
+<div class="sitename2"><a href="/" title="Home"><img src="/UserFiles/Servers/Server_260627/Image/Theme/ISAS-header.gif" alt="Illinois State Archaeological Survey" title="Illinois State Archaeological Survey" style="height: 27px;"/></a></div>
+
+<div class="sitename3"><a href="http://www.prairie.illinois.edu/" title="Home"><img src="/UserFiles/Servers/Server_260627/Image/Theme/PRI-header.gif" alt="Prairie Research Institute" title="Prairie Research Institute" style="height: 14px;"/></a></div>
+
+
+<div id="uilogo150"><a href="http://150.illinois.edu/"><img width="38" height="50" src="/UserFiles/Servers/Server_260627/Image/Theme/pri-header-IL150.gif" alt="University of Illinois 150 Years logo" /></a></div>
+
+ </div> <!-- end header -->
+
+<div id="navbar"><navbar/></div>
+
+
+        <!-- START #search -->
+       <!-- <div id="search" role="search">
+            <div class="search-move">
+               <searchbox size="10" buttonimage="/UserFiles/Servers/Server_260627/Image/Theme/search-icon.png" border="0"/>
+            </div>
+        </div> -->
+
+<script>
+  (function() {
+    var cx = '017077135089854586136:wotlga927ks';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<div class="gcse-search"></div>
+
+        <!-- END #search -->
+
+
+    <contents />
+
+</div><!-- end wrapper-->
+  	<div class="clear"></div>
+ <div class="push"></div>
+
+</div>
+<!-- END WRAP -->
+
+<div class="footer" role="contentinfo">
+
+    <div class="pa20">
+      <div class="float-left">
+
+        <h3><a href="/">Illinois State Archaeological Survey</a></h3>
+        <p>23 E. Stadium Drive&lt;br/&gt;
+          209 Nuclear Physics Lab&lt;br/&gt;
+          Champaign, IL 61820&lt;br/&gt;
+          phone: 217-244-4244 | fax: 217-244-7458&lt;br/&gt;
+          <a href="mailto:isas@illinois.edu">isas@illinois.edu</a></p>
+
+      </div>
+      <div class="float-right">
+
+        <p> <span style="font-weight: bolder;"><a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Terms of use</a>. Email the <a href="mailto:isas@illinois.edu">Web Administrator</a> with questions or comments.</span> &lt;br/&gt;
+<credits/>University of Illinois Board of Trustees. All rights reserved.&lt;br/&gt;
+        For permissions information, contact the <a href="mailto:isas@illinois.edu">Illinois State Archaeological Survey</a>.&lt;br/&gt;
+        </p>
+        <p><a href="http://server.isas.illinois.edu/index.shtml">Staff Intranet</a></p>
+        <p><a href="http://isas.illinois.edu/splogin">Admin</a></p>
+  </div>
+
+      <div class="clear"></div>
+    </div>
+      
+
+        <!-- START #pub-links -->
+        <div id="pub-links">
+            <PublishedLinkMenu maxLinks="6" />
+        </div>
+        <!-- END #pub-links -->
+
+</div>
+
+<!-- End Footer -->
+ <script type="text/javascript" src="https://emergency.webservices.illinois.edu/illinois.js"></script>
+  <!--Here are the instructions for implementing Google Analytics on our website.
+
+Copy the following code, then paste it onto every page you want to track immediately before the </body> tag.-->
+
+ <!-- <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "https://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+  <script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15953836-1");
+pageTracker._trackPageview();
+} catch(err) {}</script> -->
+
+</template>

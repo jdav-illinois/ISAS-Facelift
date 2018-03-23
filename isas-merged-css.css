@@ -64,6 +64,9 @@ p {
 p:first-of-type {
     padding-top: 1rem;
 }
+.larger {
+    font-size: 140%;
+}
 .has-margins {
     margin: 0 2rem 0 .8rem;
 }
@@ -76,16 +79,46 @@ p:first-of-type {
 .pt-0 {
     padding-top: 0; 
 }
+.pt-1 {
+    padding-top: 1rem;
+}
+.embed-responsive-16by9 {
+    margin-top: 2%;
+}
+
 a.btn {
     padding: 5px 10px;
     margin: 5px 0px;
-    display: block;
+    display: inline-block;
     text-align: center;
     font-family: "Proxima-Nova", sans-serif;
     font-size: 1em;
     text-decoration: none;
     color: #fff;
 }
+.btn-primary {
+    background-color: #E84A27;
+    border: none;
+    color: #fff;
+}
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
+    background-color: #13294B;
+    border: none;
+}
+input[type="submit"] {
+    background-color: #13274b;
+    padding: .5rem 1rem;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1.2em;
+}
+#ctl00_ContentPlaceHolder1_ctl04_tblEdit input[type="submit" i] {
+    border: initial;
+    background-color: initial;
+    color: initial;
+    font-size: initial;    
+}
+
 span.glyphicon {
     top: 2px;
     padding-top: 4px;
@@ -358,6 +391,10 @@ body {
 }
 .bio-pic {
     max-width: 200px;
+}
+.accent-image {
+    max-width: 300px;
+    padding: 1rem;
 }
 .clear {
     clear: both;

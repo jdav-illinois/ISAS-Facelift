@@ -242,6 +242,9 @@ div.about {
 .ptl_col_3_4 {
     width: 74%;
 }
+p img {
+    margin: 5px;
+}
 
 /*===================================
              FONTS
